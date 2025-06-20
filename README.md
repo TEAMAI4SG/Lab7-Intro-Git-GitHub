@@ -103,7 +103,7 @@ The command below adds ‘README.md’ to the staging area, meaning it is ready 
 
 4) Stage the file for commit:
 
-1) The command below adds ‘README.md’ to the staging area, meaning it is ready to be committed to your project.
+- The command below adds ‘README.md’ to the staging area, meaning it is ready to be committed to your project.
 
 ```Python
 git add README.md
@@ -111,8 +111,8 @@ git add README.md
 
 5) Commit the file:
 
-1) The following command creates a commit with the message “Initial commit,” which captures the current state of the staged files. 
-2) When creating a commit, the message can be anything you want, but it is helpful to be descriptive. A descriptive commit message allows you to know what changes were made with each commit. This practice makes it easier to track your progress and backtrack to identify where any errors may have occurred.
+- The following command creates a commit with the message “Initial commit,” which captures the current state of the staged files. 
+- When creating a commit, the message can be anything you want, but it is helpful to be descriptive. A descriptive commit message allows you to know what changes were made with each commit. This practice makes it easier to track your progress and backtrack to identify where any errors may have occurred.
 
 ```Python
 git commit -m "Initial commit"
