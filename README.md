@@ -98,8 +98,7 @@ A README file, typically named **README.md**, is a markdown file that provides e
 ```Python
 echo "# PROJECTS" > README.md
 ```
-Stage the file for commit:
-The command below adds ‘README.md’ to the staging area, meaning it is ready to be committed to your project.
+
 
 4) Stage the file for commit:
 
@@ -118,5 +117,76 @@ git add README.md
 git commit -m "Initial commit"
 ```
 
+---
+
+## 🗂️ Working with Branches
+
+1. We will create and manage branches in Git using VS Code.
+
+   - Create and switch to a new branch called ‘feature’:
+     1) The command below creates a new branch named ‘feature’ and switches to it.
+     2) Switching to a new branch means that any changes you make to your project          will stay within this branch until you merge it back into the main branch.         This allows you to work on new features or experiments in isolation                without affecting the main codebase.
 
 
+```Python
+git checkout -b feature
+```
+
+
+2. Make changes in the New Branch:
+   
+- Modify the ‘README.md’ file and commit the changes:
+  1) The following appends the text “This is a new feature.” to the ‘README.md’         file, stages the changes, and commits them with the message “Add new               features”.
+
+
+```Python
+echo "This is a new feature." >> README.md
+git add README.md
+git commit -m "Add new feature"
+``` 
+
+
+3. Check which branch you are in by typing the below command in your Git Bash terminal.
+
+```Python
+git branch
+```
+
+
+4. Merge the Feature Branch into Main:
+
+- The code below will allow you to switch back to the ‘main’ branch and merge the ‘feature’ branch:
+  1) The first line of the code switches to the ‘main’ branch
+  2) The second line of the code merges the changes from the ‘feature’ branch into      it. 
+
+```Python
+git checkout main
+git merge feature
+```
+
+---
+
+
+## ☁️ Part 2: Introduction to GitHub
+
+Github is a web-based platform that provides hosting for software development and version control using Git. It offers distributed version control and source code management functionality. GitHub also provides additional features such as bug tracking, feature requests, task management and wikis for every project. This helps developers collaborate, keep track of changes, and manage their projects more efficiently. 
+
+## 🧩 Key features of GitHub include:
+
+1. **Repositories**: A repository (or “repo”) is a storage space where your project files and their revision history are kept. It serves as the central hub for your project, containing all the code, documentation, and other essential files. Repositories can be either public or private, allowing you to control who has access to your project. Public repositories are accessible to anyone, making them ideal for open-source projects. In contrast, private repositories restrict access to only those you explicitly share them with, which is useful for sensitive projects or controlled collaboration.
+
+2. **Commits**: Commits are snapshots of your project at a specific point in time. Each commit records changes made to the repository, capturing the state of the project files and providing a detailed history of modifications. This enables you to track the evolution of your project, understand what changes were made, and by whom. Descriptive commit messages are important as they provide context for the changes, making it easier to navigate the project's history and revert to previous states if necessary.
+
+3. **Branches**: Branches allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository. By creating a branch, you can work on changes without affecting the main codebase. Once the changes are ready and tested, you can merge the branch back into the main branch. This workflow enables parallel development and helps maintain a stable main codebase while facilitating collaboration among team members. 
+
+4. **Pull Requests**: Pull requests let you propose changes to a repository. They are an essential part of the collaboration workflow on GitHub, allowing contributors to review, discuss, and approve changes before they are merged into the main branch. A pull request includes the changes made in a branch, a description of the modifications, and a discussion thread where reviewers can provide feedback. This process ensures that changes are vetted and agreed upon by the team, maintaining the quality and integrity of the codebase. 
+
+5. **Issues**: Issues are used to track tasks, enhancements, and bugs for your projects. They serve as a centralized place to report problems, suggest new features, and organize work. Each issue can be assigned to contributors, labeled for categorization, and linked to milestones for tracking progress toward specific goals. Issues facilitate project management by keeping track of work items and enabling collaboration among team members to resolve them. 
+
+6. **Project Boards**: Project boards help you organize and prioritize your work. They provide a visual interface to manage projects, track progress, and collaborate with your team. You can create boards with columns representing different stages of work, such as "To Do," "In Progress," and "Done." Cards, which can be issues or pull requests, are moved between columns as work progresses. Project boards enhance workflow management by offering a clear overview of tasks and their status, helping teams stay organized and focused. 
+
+---
+
+## Lab Starts Here
+
+## 🚀 Creating a GitHub Account
