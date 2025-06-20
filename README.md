@@ -89,8 +89,9 @@ A README file, typically named **README.md**, is a markdown file that provides e
 
 2) The following command creates a **README.md** file with the content in `# PROJECTS`.
 - This command does the following:
-      1) echo "# PROJECTS" > README.md: Prints the string # PROJECTS.
-      2) > README.md: Redirects the printed string into a new file named README.md.
+
+  1) echo "# PROJECTS" > README.md: Prints the string # PROJECTS.
+  2) > README.md: Redirects the printed string into a new file named README.md.
 
 3) The content **# PROJECTS** added to **README.md** uses Markdown syntax. The **#** symbol indicates that "PROJECTS" is a top-level heading. This simple content serves as a placeholder and can be expanded later with more detailed information about the project. **You can check the content of the “README.md” file in your folder.**
 
