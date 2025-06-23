@@ -55,6 +55,7 @@ Git is a distributed version control system that allows multiple developers to w
 6. Go to File → Open Folder → Select Projects folder.
 
 
+
 7. Open the Terminal window on VS Code and verify the installation by typing the following command in the terminal:
 
    a. This command should return the installed version of Git. 
@@ -88,23 +89,22 @@ git init
 
 10. Create a file and make the first commit:
 
-1) Create a new file “README.md” and add some content.
+a. Create a new file “README.md” and add some content.
 A README file, typically named **README.md**, is a markdown file that provides essential information about a project. It usually includes an overview of the project, instructions on how to set it up and use it, a description of the project's purpose, and any other relevant details that help users and developers understand and contribute to the project. The **.md** extension indicates that the file is written in Markdown, a lightweight markup language that allows for easy formatting of text.
 
-2) The following command creates a **README.md** file with the content in `# PROJECTS`.
+b. The following command creates a **README.md** file with the content in `# PROJECTS`.
 - This command does the following:
 
   1) echo "# PROJECTS" > README.md: Prints the string # PROJECTS.
   2) **"> README.md:"** Redirects the printed string into a new file named               README.md.
 
-3) The content **# PROJECTS** added to **README.md** uses Markdown syntax. The **#** symbol indicates that "PROJECTS" is a top-level heading. This simple content serves as a placeholder and can be expanded later with more detailed information about the project. **You can check the content of the “README.md” file in your folder.**
+c. The content **# PROJECTS** added to **README.md** uses Markdown syntax. The **#** symbol indicates that "PROJECTS" is a top-level heading. This simple content serves as a placeholder and can be expanded later with more detailed information about the project. **You can check the content of the “README.md” file in your folder.**
 
 ```Python
 echo "# PROJECTS" > README.md
 ```
 
-
-4) Stage the file for commit:
+d. Stage the file for commit:
 
 - The command below adds ‘README.md’ to the staging area, meaning it is ready to be committed to your project.
 
@@ -112,7 +112,7 @@ echo "# PROJECTS" > README.md
 git add README.md
 ```
 
-5) Commit the file:
+e. Commit the file:
 
 - The following command creates a commit with the message “Initial commit,” which captures the current state of the staged files. 
 - When creating a commit, the message can be anything you want, but it is helpful to be descriptive. A descriptive commit message allows you to know what changes were made with each commit. This practice makes it easier to track your progress and backtrack to identify where any errors may have occurred.
