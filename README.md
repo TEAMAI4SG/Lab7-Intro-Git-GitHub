@@ -54,7 +54,7 @@ Git is a distributed version control system that allows multiple developers to w
 5. Open VS Code.
 6. Go to File → Open Folder → Select Projects folder.
 
-
+![Picture 1](screenshots/Picture1.png)
 
 7. Open the Terminal window on VS Code and verify the installation by typing the following command in the terminal:
 
@@ -103,6 +103,8 @@ c. The content **# PROJECTS** added to **README.md** uses Markdown syntax. The *
 ```Python
 echo "# PROJECTS" > README.md
 ```
+
+![Picture 2](screenshots/Picture2.png)
 
 d. Stage the file for commit:
 
@@ -196,6 +198,9 @@ Github is a web-based platform that provides hosting for software development an
 ## 🚀 Creating a GitHub Account
 
 1. **If you don’t have a GitHub account yet**, go to [GitHub](https://github.com/) and click on the ‘sign up’ button in the upper right corner.
+
+![Picture 3](screenshots/Picture3.png)
+
 2. Fill in the required information, including your username, email address, and password.
 3. Follow the prompts to complete the sign-up process. 
 4. Make sure to verify your email address by following the link sent to your email. 
@@ -208,10 +213,18 @@ a. To get to the dashboard:
   1) Look for a link or icon labeled “Dashboard” or similar in the main navigation       menu.
   2) Click on it to access the dashboard, where you can manage your repositories.
 
+
+![Picture 4](screenshots/Picture4.png)
+
+
 b. Click on the new button to create a new repository.
 
 c. Fill in the repository name, description (optional), and choose between a public or private repository. 
 A public repository is accessible to anyone, which is great for open-source projects where you want to share your code with the world and allow others to contribute. A private repository, on the other hand, restricts access to only those you explicitly share it with, which is ideal for sensitive projects or when you want to control who can see and contribute to your code.
+
+
+![Picture 5](screenshots/Picture5.png)
+
 
 d. Check the box to initialize the repository with a ‘README’ file.
 
@@ -220,6 +233,10 @@ e. Click ‘Create repository’.
 **2. Navigate the Repository:**
 
 a. In your newly created repository, you will see several tabs: **Code, Issues, Pull requests, Actions, Projects, Security, Insights, and Settings.**
+
+
+![Picture 6](screenshots/Picture6.png)
+
 
 b. Explore each tab to understand its purpose:
 
@@ -301,6 +318,9 @@ streamlit run main_page.py
 1. Log in to your OpenAI account.
 2. Go to your account settings.
 3. Locate the "Billing" section and disable the "Auto-Recharge" option.
+
+![Picture 7](screenshots/Picture7.png)
+
 
 ---
 
