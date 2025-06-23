@@ -56,14 +56,16 @@ Git is a distributed version control system that allows multiple developers to w
 
 
 7. Open the Terminal window on VS Code and verify the installation by typing the following command in the terminal:
-- This command should return the installed version of Git. 
+
+   a. This command should return the installed version of Git. 
 
 ```Python
 git --version
 ```
 
 8. Set up Git: Configure your Git username and email. Begin by typing the following code in the terminal. **Use your actual name and email address.**
-- These commands will set your global Git configuration to identify your commits.
+
+   a. These commands will set your global Git configuration to identify your              commits.
 
 ```Python
 git config --global user.name "Your Name"
@@ -71,11 +73,13 @@ git config --global user.email "your.email@example.com"
 ```
 
 9. Initialize a Repository:
-   - The following code sets up a new Git repository in the current directory,           creating a ‘.git’ folder that tracks all changes. 
+
+    a. The following code sets up a new Git repository in the current directory,           creating a ‘.git’ folder that tracks all changes. 
 
 ```Python
 git config init
 ```
+
 **OR**
 
 ```Python
@@ -123,9 +127,9 @@ git commit -m "Initial commit"
 
 1. We will create and manage branches in Git using VS Code.
 
-   - Create and switch to a new branch called ‘feature’:
+   a. Create and switch to a new branch called ‘feature’:
      1) The command below creates a new branch named ‘feature’ and switches to it.
-     2) Switching to a new branch means that any changes you make to your project          will stay within this branch until you merge it back into the main branch.         This allows you to work on new features or experiments in isolation                without affecting the main codebase.
+     2) Switching to a new branch means that any changes you make to your project          will stay within this branch until you merge it back into the main branch.          This allows you to work on new features or experiments in isolation                 without affecting the main codebase.
 
 
 ```Python
@@ -133,10 +137,10 @@ git checkout -b feature
 ```
 
 
-2. Make changes in the New Branch:
+b. Make changes in the New Branch:
    
-- Modify the ‘README.md’ file and commit the changes:
-  1) The following appends the text “This is a new feature.” to the ‘README.md’         file, stages the changes, and commits them with the message “Add new               features”.
+   - Modify the ‘README.md’ file and commit the changes:
+      1) The following appends the text “This is a new feature.” to the ‘README.md’         file, stages the changes, and commits them with the message “Add new                features”.
 
 
 ```Python
@@ -146,18 +150,18 @@ git commit -m "Add new feature"
 ``` 
 
 
-3. Check which branch you are in by typing the below command in your Git Bash terminal.
+   c. Check which branch you are in by typing the below command in your Git Bash          terminal.
 
 ```Python
 git branch
 ```
 
 
-4. Merge the Feature Branch into Main:
+   d. Merge the Feature Branch into Main:
 
-- The code below will allow you to switch back to the ‘main’ branch and merge the ‘feature’ branch:
-  1) The first line of the code switches to the ‘main’ branch
-  2) The second line of the code merges the changes from the ‘feature’ branch into      it. 
+   - The code below will allow you to switch back to the ‘main’ branch and merge         the ‘feature’ branch:
+     1) The first line of the code switches to the ‘main’ branch
+     2) The second line of the code merges the changes from the ‘feature’ branch            into it. 
 
 ```Python
 git checkout main
@@ -198,7 +202,7 @@ Github is a web-based platform that provides hosting for software development an
  
 ## 🔍 Exploring GitHub Features
 
-## 1. Create a New Repository:
+**1. Create a New Repository:**
 
 a. To get to the dashboard:
   1) Look for a link or icon labeled “Dashboard” or similar in the main navigation       menu.
@@ -213,7 +217,7 @@ d. Check the box to initialize the repository with a ‘README’ file.
 
 e. Click ‘Create repository’.
 
-## 2. Navigate the Repository:
+**2. Navigate the Repository:**
 
 a. In your newly created repository, you will see several tabs: **Code, Issues, Pull requests, Actions, Projects, Security, Insights, and Settings.**
 
@@ -229,9 +233,102 @@ b. Explore each tab to understand its purpose:
 
 ---
 
+## 📋 Best Practices of Using GitHub
+
+**1. Write meaningful commit messages:**
+
+a. Commit messages should be concise but descriptive, explaining the purpose of the commit.
+b. Write commit messages using verb phrases in the imperative mood (e.g., “Add feature,” “Fix bug”).
+
+**2. Use branches effectively:**
+
+a. Create separate branches for new features, bug fixes, and experiments.
+b. Keep the **main** branch stable and deployable.
+
+**3. Review and text code:**
+
+a. Use pull requests to review and discuss changes before merging them into the **main** branch. This is how you will collaborate with groupmates when you start on your project.
+b. Test your code thoroughly to ensure it works as expected. 
+
+**4. Document your project:**
+
+a. Use the **README** file to provide an overview of your project, how to set it up, and how to contribute. This file does not contain code; it is essentially a text file.
+
+**5. Collaborate and communicate:**
+
+a. Use issues to track tasks and communicate with collaborators.
+b. Be clear and respectful in your communication, providing constructive feedback and support. 
+
+---
+
+## 🔐 Part 3: Save API Key as an Environment Variable
+
+**1. Save API Key as an Environment Variable.** Please follow the tutorial below to protect your API key. Follow Section 4. Use Environment Variables in place of your API key in the tutorial [Best Practices for API Key Safety](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety.) After this step, nobody can see your API key from your code. This will make collaborating with your team members and the teaching staff much easier and safer.
+
+---
+
+## 📥 Part 4: Clone a GitHub Repository
+
+**Material you might find helpful:**
+
+1. [Sample screenshots after running the code](https://sjsu.instructure.com/courses/1594331/pages/resource-page-code-video-demo-and-screenshots)  
+2. [Demo video how to run the code](https://sjsu.instructuremedia.com/embed/5d9ec3d0-7975-40ea-89d3-1f651855096b)
+
+**1. Clone the Repository**: Create a new project called "Tutorial" on VS Code. Then clone the [118i-tutorial](https://github.com/unicode101/118i-tutorial) GitHub Repo on your computer by running the following in VS Code terminal:
+
+```Python
+git clone https://github.com/unicode101/118i-tutorial.git
+```
+
+**2. Run the cloned project**
+
+**Install Dependencies** Navigate to the cloned project directory and install the required dependencies for each code by using a variation of the following command in the terminal. Please update "name_of_library" with what you are required for each page. This is needed for the Python files that have an import statement at the top of the file. 
+
+```Python
+pip3 install name_of_library
+```
+
+**3. Run the Project using Streamlit**: Check the terminal to see whether you are under the “118i-tutorial” folder within your project folder. Then run the Streamlit application using the following command you are already familiar with.
+
+```Python
+streamlit run main_page.py
+```
+
+---
+
+## 💳 Part 5: Disable Auto-recharge
+
+1. Log in to your OpenAI account.
+2. Go to your account settings.
+3. Locate the "Billing" section and disable the "Auto-Recharge" option.
+
+---
+
+## 🎉 Congratulations, you have successfully finished the lab!
+
+## 📝 Assignment:
+
+**1. Customize your GitHub profile:** Add a profile picture, bio, and other relevant details.
+**2. Create a new repository:** Initialize it with a README file and explore its features.
+**3. Save your API key securely:** Store it as an environment variable to protect it from accidental exposure.
+**4. Clone the provided repository:** Use it as a template for your group project.
+**5. Disable auto-recharge on your OpenAI account:** This prevents unexpected charges if your API usage exceeds your expectations. Go to your OpenAI account settings and disable the auto-recharge option.
 
 
+## 📤 Submission:
+
+- Submit a PDF containing screenshots of:
+     -  Your GitHub profile and a link to it. (2 pts)
+     -  The repository you created. (2 pts)
+     -  You have successfully made API key an environment variable (3 pts)
+     -  Your successfully running project in VS Code, showing the output without            error on the browser of the main page AND at least 6 of the 8 sub pages.            **The screenshots should include your terminal as well.**
+     -  Your OpenAI account settings with auto-recharge disabled. (2 pts)
 
 
+--- 
+
+## 🔗 References
+
+[Freecodecamp](https://www.freecodecamp.org/news/git-and-github-for-beginners/)
 
 
