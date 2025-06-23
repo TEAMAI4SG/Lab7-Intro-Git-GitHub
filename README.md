@@ -1,4 +1,4 @@
-# Lab 7: Introduction to Git and GitHub
+      # Lab 7: Introduction to Git and GitHub
 
 ---
 
@@ -106,6 +106,7 @@ echo "# PROJECTS" > README.md
 
 ![Picture 2](screenshots/Picture2.png)
 
+
 d. Stage the file for commit:
 
 - The command below adds ‘README.md’ to the staging area, meaning it is ready to be committed to your project.
@@ -130,8 +131,8 @@ git commit -m "Initial commit"
 1. We will create and manage branches in Git using VS Code.
 
    a. Create and switch to a new branch called ‘feature’:
-     1) The command below creates a new branch named ‘feature’ and switches to it.
-     2) Switching to a new branch means that any changes you make to your project          will stay within this branch until you merge it back into the main branch.          This allows you to work on new features or experiments in isolation                 without affecting the main codebase.
+     1) The command below creates a new branch named ‘feature’ and switches to          it.
+     2) Switching to a new branch means that any changes you make to your               project will stay within this branch until you merge it back into the           main branch. This allows you to work on new features or experiments in          isolation without affecting the main codebase.
 
 
 ```Python
@@ -139,10 +140,10 @@ git checkout -b feature
 ```
 
 
-b. Make changes in the New Branch:
+   b. Make changes in the New Branch:
    
    - Modify the ‘README.md’ file and commit the changes:
-      1) The following appends the text “This is a new feature.” to the ‘README.md’         file, stages the changes, and commits them with the message “Add new                features”.
+      1) The following appends the text “This is a new feature.” to the                  ‘README.md’ file, stages the changes, and commits them with the                  message “Add new features”.
 
 
 ```Python
@@ -152,7 +153,7 @@ git commit -m "Add new feature"
 ``` 
 
 
-   c. Check which branch you are in by typing the below command in your Git Bash          terminal.
+   c. Check which branch you are in by typing the below command in your Git            Bash terminal.
 
 ```Python
 git branch
@@ -161,9 +162,9 @@ git branch
 
    d. Merge the Feature Branch into Main:
 
-   - The code below will allow you to switch back to the ‘main’ branch and merge         the ‘feature’ branch:
+   - The code below will allow you to switch back to the ‘main’ branch and           merge the ‘feature’ branch:
      1) The first line of the code switches to the ‘main’ branch
-     2) The second line of the code merges the changes from the ‘feature’ branch            into it. 
+     2) The second line of the code merges the changes from the ‘feature’               branch into it. 
 
 ```Python
 git checkout main
@@ -209,36 +210,36 @@ Github is a web-based platform that provides hosting for software development an
 
 **1. Create a New Repository:**
 
-a. To get to the dashboard:
-  1) Look for a link or icon labeled “Dashboard” or similar in the main navigation       menu.
-  2) Click on it to access the dashboard, where you can manage your repositories.
+   a. To get to the dashboard:
+     1) Look for a link or icon labeled “Dashboard” or similar in the main              navigation menu.
+     2) Click on it to access the dashboard, where you can manage your                  repositories.
 
 
 ![Picture 4](screenshots/Picture4.png)
 
 
-b. Click on the new button to create a new repository.
+   b. Click on the new button to create a new repository.
 
-c. Fill in the repository name, description (optional), and choose between a public or private repository. 
-A public repository is accessible to anyone, which is great for open-source projects where you want to share your code with the world and allow others to contribute. A private repository, on the other hand, restricts access to only those you explicitly share it with, which is ideal for sensitive projects or when you want to control who can see and contribute to your code.
+   c. Fill in the repository name, description (optional), and choose between a       public or private repository. 
+      A public repository is accessible to anyone, which is great for open-           source projects where you want to share your code with the world and            allow others to contribute. A private repository, on the other hand,            restricts access to only those you explicitly share it with, which is           ideal for sensitive projects or when you want to control who can see and        contribute to your code.
 
 
 ![Picture 5](screenshots/Picture5.png)
 
 
-d. Check the box to initialize the repository with a ‘README’ file.
+   d. Check the box to initialize the repository with a ‘README’ file.
 
-e. Click ‘Create repository’.
+   e. Click ‘Create repository’.
 
 **2. Navigate the Repository:**
 
-a. In your newly created repository, you will see several tabs: **Code, Issues, Pull requests, Actions, Projects, Security, Insights, and Settings.**
+   a. In your newly created repository, you will see several tabs: **Code,            Issues, Pull requests, Actions, Projects, Security, Insights, and               Settings.**
 
 
 ![Picture 6](screenshots/Picture6.png)
 
 
-b. Explore each tab to understand its purpose:
+   b. Explore each tab to understand its purpose:
 
 1) **Code:** This section contains the source code and project files. It is the main section where you can view and manage all the project files.
 2) **Issues:** Track bugs, tasks, and feature requests. It is a great way to keep track of tasks and improvements.
@@ -254,28 +255,28 @@ b. Explore each tab to understand its purpose:
 
 **1. Write meaningful commit messages:**
 
-a. Commit messages should be concise but descriptive, explaining the purpose of the commit.
-b. Write commit messages using verb phrases in the imperative mood (e.g., “Add feature,” “Fix bug”).
+   a. Commit messages should be concise but descriptive, explaining the purpose       of the commit.
+   b. Write commit messages using verb phrases in the imperative mood (e.g.,          “Add feature,” “Fix bug”).
 
 **2. Use branches effectively:**
 
-a. Create separate branches for new features, bug fixes, and experiments.
-b. Keep the **main** branch stable and deployable.
+   a. Create separate branches for new features, bug fixes, and experiments.
+   b. Keep the **main** branch stable and deployable.
 
 **3. Review and text code:**
 
-a. Use pull requests to review and discuss changes before merging them into the **main** branch. This is how you will collaborate with groupmates when you start on your project.
-b. Test your code thoroughly to ensure it works as expected. 
+   a. Use pull requests to review and discuss changes before merging them into        the **main** branch. This is how you will collaborate with groupmates           when you start on your project.
+   b. Test your code thoroughly to ensure it works as expected. 
 
 **4. Document your project:**
 
-a. Use the **README** file to provide an overview of your project, how to set it up, and how to contribute. This file does not contain code; it is essentially a text file.
+   a. Use the **README** file to provide an overview of your project, how to          set it up, and how to contribute. This file does not contain code; it is        essentially a text file.
 
 **5. Collaborate and communicate:**
 
-a. Use issues to track tasks and communicate with collaborators.
-b. Be clear and respectful in your communication, providing constructive feedback and support. 
-
+   a. Use issues to track tasks and communicate with collaborators.
+   b. Be clear and respectful in your communication, providing constructive           feedback and support. 
+   
 ---
 
 ## 🔐 Part 3: Save API Key as an Environment Variable
@@ -299,7 +300,7 @@ git clone https://github.com/unicode101/118i-tutorial.git
 
 **2. Run the cloned project**
 
-**Install Dependencies** Navigate to the cloned project directory and install the required dependencies for each code by using a variation of the following command in the terminal. Please update "name_of_library" with what you are required for each page. This is needed for the Python files that have an import statement at the top of the file. 
+- **Install Dependencies** Navigate to the cloned project directory and install the required dependencies for each code by using a variation of the following command in the terminal. Please update "name_of_library" with what you are required for each page. This is needed for the Python files that have an import statement at the top of the file. 
 
 ```Python
 pip3 install name_of_library
@@ -341,7 +342,7 @@ streamlit run main_page.py
      -  Your GitHub profile and a link to it. (2 pts)
      -  The repository you created. (2 pts)
      -  You have successfully made API key an environment variable (3 pts)
-     -  Your successfully running project in VS Code, showing the output without            error on the browser of the main page AND at least 6 of the 8 sub pages.            **The screenshots should include your terminal as well.**
+     -  Your successfully running project in VS Code, showing the output                without error on the browser of the main page AND at least 6 of the 8           sub pages. **The screenshots should include your terminal as well.**
      -  Your OpenAI account settings with auto-recharge disabled. (2 pts)
 
 
