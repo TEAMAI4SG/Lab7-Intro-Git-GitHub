@@ -289,8 +289,8 @@ Github is a web-based platform that provides hosting for software development an
 
 **Material you might find helpful:**
 
-1. [Sample screenshots after running the code](https://sjsu.instructure.com/courses/1594331/pages/resource-page-code-video-demo-and-screenshots)  
-2. [Demo video how to run the code](https://sjsu.instructuremedia.com/embed/5d9ec3d0-7975-40ea-89d3-1f651855096b)
+- [Sample screenshots after running the code](https://sjsu.instructure.com/courses/1594331/pages/resource-page-code-video-demo-and-screenshots)
+- [Demo video how to run the code](https://sjsu.instructuremedia.com/embed/5d9ec3d0-7975-40ea-89d3-1f651855096b)
 
 **1. Clone the Repository**: Create a new project called "Tutorial" on VS Code. Then clone the [118i-tutorial](https://github.com/unicode101/118i-tutorial) GitHub Repo on your computer by running the following in VS Code terminal:
 
