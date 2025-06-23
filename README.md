@@ -1,4 +1,4 @@
-# Lab 6: Introduction to Git and GitHub
+# Lab 7: Introduction to Git and GitHub
 
 ---
 
@@ -190,3 +190,30 @@ Github is a web-based platform that provides hosting for software development an
 ## Lab Starts Here
 
 ## 🚀 Creating a GitHub Account
+
+1. **If you don’t have a GitHub account yet**, go to [GitHub](https://github.com/) and click on the ‘sign up’ button in the upper right corner.
+2. Fill in the required information, including your username, email address, and password.
+3. Follow the prompts to complete the sign-up process. 
+4. Make sure to verify your email address by following the link sent to your email. 
+ 
+## 🔍 Exploring GitHub Features
+
+1. Create a New Repository:
+
+a. To get to the dashboard:
+  1) Look for a link or icon labeled “Dashboard” or similar in the main navigation       menu.
+  2) Click on it to access the dashboard, where you can manage your repositories.
+
+b. Click on the new button to create a new repository.
+
+Fill in the repository name, description (optional), and choose between a public or private repository. 
+A public repository is accessible to anyone, which is great for open-source projects where you want to share your code with the world and allow others to contribute. A private repository, on the other hand, restricts access to only those you explicitly share it with, which is ideal for sensitive projects or when you want to control who can see and contribute to your code.
+
+- Check the box to initialize the repository with a ‘README’ file.
+
+- Click ‘Create repository’.
+
+
+
+
+
