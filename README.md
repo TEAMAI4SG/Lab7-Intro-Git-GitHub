@@ -211,9 +211,9 @@ Github is a web-based platform that provides hosting for software development an
 **1. Create a New Repository:**
 
    a. To get to the dashboard:
-     1) Look for a link or icon labeled “Dashboard” or similar in the main              navigation menu.
-     2) Click on it to access the dashboard, where you can manage your                  repositories.
-
+     
+     - Look for a link or icon labeled “Dashboard” or similar in the main                navigation menu.
+     - Click on it to access the dashboard, where you can manage your                    repositories.
 
 ![Picture 4](screenshots/Picture4.png)
 
