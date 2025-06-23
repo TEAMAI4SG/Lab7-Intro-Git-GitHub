@@ -1,4 +1,4 @@
-      # Lab 7: Introduction to Git and GitHub
+# Lab 7: Introduction to Git and GitHub
 
 ---
 
